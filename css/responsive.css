@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    .buttons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 20px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .buttons {
+        display: grid;
+        grid-template-columns: repeat(1, 200px);
+        margin: 0 20px;
+    }
+    ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 20px;
+        padding-bottom: 15px;
+    }
+
+    ul li img {
+        width: 100%;
+    }
+    
+}
